@@ -103,7 +103,7 @@ render();
 var make_legend = function() {
     var legend = g.append("g")
                .attr("class", "key")
-               .attr("transform", `translate(${width/2 - 50*2.5},${10})`);
+               .attr("transform", `translate(${width/2 - 50*2.5},${20})`);
 
 
      var legend_data = [10,100,1000,10000,100000];
